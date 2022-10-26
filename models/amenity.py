@@ -19,3 +19,4 @@ class Amenity(BaseModel, Base):
                                        cascade='delete')
     else:
         name = ''
+    
